@@ -12,7 +12,7 @@ rm -rf /var/lib/apt/lists/*
 
 ENV CUDA_VERSION 11.1.1
 ENV NCCL_VERSION 2.8.3
-ENV CUDA_PKG_VERSION 11-1=$CUDA_VERSION-1
+ENV CUDA_PKG_VERSION 11-1
 ENV CUDNN_VERSION 8.0.5
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
